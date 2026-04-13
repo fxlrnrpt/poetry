@@ -1,5 +1,7 @@
 baseURL = "https://poetry.faillearnrepeat.net"
-theme = "hugo-bearblog"
+[module]
+  [[module.imports]]
+    path = "github.com/janraasch/hugo-bearblog"
 title = "Андрюша пишет стихи"
 author = "Андрей Гончаров"
 languageCode = "ru"
